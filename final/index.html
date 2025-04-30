@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<link rel="stylesheet" href="styles.css">-->
+    </head>
+    <body>
+        <h1>Warframe DPS Calculator</h1>
+        <form action="/submit" method="post" id="damageForm">
+            <div id="damageTypes">
+                    <label for="damagetype">Damage Type:</label>
+                    <input type="text" class="damagetype" name="damagetype[]" required>
+                    <label for="damageamount">Damage Amount:</label>
+                    <input type="number" class="damageamount" name="damageamount[]" step="0.01" required>
+            </div>
+            <button type="button" id="addItem">Add Another Damage Type</button>
+            <br></br>
+            <label for="enemytype">Enemy Type:</label>
+            <input type="text" id="enemytype" name="enemytype">
+            <br></br>
+            <label for="multishot">Multishot:</label>
+            <input type="number" id="multishot" name="multishot">
+            <br></br>
+            <label for="firerate">Firerate:</label>
+            <input type="number" id="firerate" name="firerate">
+        </form>
+        <button type="button" id="calculate">Calculate Damage</button>
+        <br></br>
+        <p id="totaldamage">Total Damage:</p>
+        <script src="finalproject.js"></script>
+    </body>
+</html>

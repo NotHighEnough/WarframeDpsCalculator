@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #00bfff;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#damageTypes {
+    display: flex;
+    gap: 10px; /* spacing between the inputs */
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#addItem {
+    display: block;
+    width: 50%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #00bfff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#calculate {
+    display: block;
+    width: 25%;
+    margin: 20px auto 0 auto;
+    padding: 12px;
+    background-color: #00bfff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addItem:hover,
+#calculate:hover {
+    background-color: #009acd;
+}
+
+#totaldamage {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #ffffff;
+}

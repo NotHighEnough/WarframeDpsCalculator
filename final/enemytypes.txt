@@ -1,0 +1,8 @@
+Grineer
+Impact:1
+Corrosive:1
+Dummy:1
+Kuva Grineer
+Impact:1
+Heat:0
+Corrosive:1
